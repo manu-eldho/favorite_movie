@@ -1,12 +1,15 @@
-# React + Vite
+# Favourite Movies
+A simple yet functional React web application that helps users explore and favorite their favorite movies using real-time data from The Movie Database (TMDb) API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+— Search for any movie by title using the TMDb API.
+— View trending and popular movies on app load.
+— Save movies to a personal favorites list.
+— View all your favorited movies in one place.
+— Fetched dynamically from TMDb for fresh data.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tech Stack
+Frontend: React
+Styling: CSS
+Data Source: TMDb REST API
+State Management: React useState, useEffect
